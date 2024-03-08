@@ -1,5 +1,5 @@
 {
-  "name": "customer-sdk-ts-2.0",
+  "name": "customer-support-sdk-ts",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usamashabbir123/customer-sdk-1.2.git"
+    "url": "git+https://github.com/usamashabbir123/customer-sdk-ts.git"
   },
   "author": "usama shabbir",
   "license": "ISC",
@@ -20,9 +20,9 @@
     "form"
   ],
   "bugs": {
-    "url": "https://github.com/usamashabbir123/customer-sdk-1.2/issues"
+    "url": "https://github.com/usamashabbir123/customer-sdk-ts.git/issues"
   },
-  "homepage": "https://github.com/usamashabbir123/customer-sdk-1.2#readme",
+  "homepage": "https://github.com/usamashabbir123/customer-sdk-ts.git#readme",
   "files": [
     "lib/**/*"
   ],

@@ -237,3 +237,18 @@ export function chatEnd(data: any) {
     socket.emit("CHAT_ENDED", data);
   }
 }
+
+/**
+ *
+ * @param {*} data
+ */
+export function resumeChat(data: any, callback: (res: any) => void) {
+  if (socket) {
+    socket.emit("CHAT_RESUMED", data, (res: any) => {
+      if (res) {
+        console.log(res, "resume chat response in sdk.");
+        callback(res);
+      }
+    });
+  }
+}
